@@ -1,0 +1,80 @@
+/*
+Theme Name: Blog
+Theme URI: https://github.com/alexandrevale/Wordpress-Theme---Blog
+Author: Alexandre do Vale
+*/
+
+body {
+	font: 16px 'Open Sans', sans-serif;
+}
+
+p {
+	margin: 15px 0
+}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.p-0 {
+	padding: 0
+}
+
+.pl-0 {
+	padding-left: 0
+}
+
+.pr-0 {
+	padding-right: 0
+}
+
+.d-flex {
+	display: flex
+}
+
+.center {
+	margin: 0 auto;
+    display: block;
+}
+
+.cursor-pointer {
+	cursor: pointer
+}
+
+.text-center {
+	text-align: center
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+/*Extra Small Devices (e.g. cell phones) are the default, creating the “mobile first” concept in Bootstrap. This covers devices smaller than 768px wide.*/
+
+/*Small Devices (e.g. tablets) are targeted with*/
+ @media (min-width: 768px) and (max-width: 991px) { 
+ 	
+ }
+/*Medium Sized Devices (e.g. Desktops) have a screen size smaller than 1200px and greater than 991px*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}
+/*Larger Devices (e.g. wide-screen monitors) are greater than 1200px, targeted using*/
+@media (min-width: 1200px) { 
+	.wrapper {
+		width: 1170px;
+	}
+}
