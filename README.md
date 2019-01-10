@@ -1,42 +1,26 @@
-#Wordpress Basic Theme
-Tema básico com funções, loops, bibliotecas e frameworks preparados para iniciar o desenvolvimento de novos projetos.
+# Blog Básico
 
-#Ferramentas
-## Geral
-* [Gerador de CPF](http://www.geradorcpf.com/)
-* [Gerador de Lorem Ipsum](https://br.lipsum.com/)
+Tema de blog responsivo com a estrutura:
+* Home
+* Sobre
+* Blog
+* Contato
 
-## Formatter
-* [HTML](https://www.freeformatter.com/html-formatter.html)
+Com pesquisas por:
+* Categorias
+* Tags
+* Palavras chaves
 
-## Validator
-* [Markdown](https://dillinger.io/)
+## Plugins
 
-## Wordpress
-* [Argumentos para loops](https://gist.github.com/luetkemj/2023628)
-
-### Plugins
 * [WordPress Infinite Scroll – Ajax Load More](https://wordpress.org/plugins/ajax-load-more/)
 * [WP-PageNavi](https://br.wordpress.org/plugins/wp-pagenavi/)
 * [Yoast SEO](https://br.wordpress.org/plugins/wordpress-seo/)
 
-## Elementos Gráficos
-### Preloaders
-* [Preloaders](https://icons8.com/preloaders/)
+## Utilização
 
-### Ícones
-* [Ícones - Flaticon](https://www.flaticon.com/)
-* [Ícones - Iconfinder](https://www.iconfinder.com/)
+### Instalação
 
-### Seletor de Cores
-* [Adobe Colors](https://color.adobe.com/)
-* [Flat Colors](https://flatuicolors.com/)
+### Importação do banco de dados
 
-## Mapas
-* [Google Maps encontrar coordenadas facilmente](http://www.mapcoordinates.net/pt)
-
-## Snippet
-* [Lista de ícones do Font Awesome e suas aplicações](http://astronautweb.co/snippet/font-awesome/)
-
-## Cheatsheet
-* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+## Referências
