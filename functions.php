@@ -20,8 +20,17 @@
   function carregar_css_js() {  
     
     // Carregando CSS header
+
+    /*
+    <script src="<?php bloginfo('template_url') ?>/js/jquery.js"></script>
+    <script src="<?php bloginfo('template_url') ?>/js/popper.js"></script>
+    <script src="<?php bloginfo('template_url') ?>/js/bootstrap.js"></script>
+    */ 
     wp_enqueue_style('style', get_stylesheet_uri() );
-    wp_enqueue_script('scripts', get_template_directory_uri().'/js/scripts.js', , '', true );
+    wp_enqueue_script('jquery', get_template_directory_uri().'/js/jquery.js');
+    wp_enqueue_script('popper', get_template_directory_uri().'/js/popper.js');
+    wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.js');
+    wp_enqueue_script('scripts', get_template_directory_uri().'/js/scripts.js');
 
   }
   add_action( 'wp_enqueue_scripts', 'carregar_css_js' );

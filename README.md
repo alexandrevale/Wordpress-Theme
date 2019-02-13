@@ -1,4 +1,4 @@
-# Blog Básico
+# Blog
 
 Tema de blog responsivo com a estrutura:
 * Home
@@ -11,10 +11,12 @@ Com pesquisas por:
 * Tags
 * Palavras chaves
 
+## Funções disponíveis
+
 ## Plugins
 
-* [WordPress Infinite Scroll – Ajax Load More](https://wordpress.org/plugins/ajax-load-more/)
-* [WP-PageNavi](https://br.wordpress.org/plugins/wp-pagenavi/)
+* [WordPress Infinite Scroll – Ajax Load More]()
+* [WP-PageNavi]()
 * [Yoast SEO](https://br.wordpress.org/plugins/wordpress-seo/)
 
 ## Utilização
