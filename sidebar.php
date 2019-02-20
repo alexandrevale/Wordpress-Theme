@@ -1,7 +1,11 @@
-		<aside>
+	<aside class="col-md-4 blog-sidebar">
+		<div class="p-4 mb-3 bg-light rounded">
 			<?php get_search_form(); ?>
-			<h3>Categorias</h3>					
-			<ul>
+		</div>
+
+		<div class="p-4">
+        	<h3>Categorias</h3>	
+        	<ul class="list-unstyled mb-0">
 			    <?php
 			    wp_list_categories( 
 			     	array(
@@ -11,9 +15,12 @@
 		    		) 
 		    	);
 		    	?>
-		    </ul> 
-			<h3>Tags</h3>	
-			<?php 
+	    	</ul> 
+      	</div>
+
+      	<div class="p-4">
+        	<h3>Tags</h3>
+	        <?php 
 				$tags = get_tags();
 				$html = '<div class="tags">';
 					foreach ( $tags as $tag ) {
@@ -24,4 +31,5 @@
 				$html .= '</div>';
 				echo $html;
 			?>
-		</aside>
+      	</div>
+    </aside>
