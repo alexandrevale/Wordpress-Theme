@@ -1,9 +1,15 @@
 <?php get_header(); ?>
-<main>
+<main role="main">
+	
+	<div class="jumbotron p-4 p-md-5 text-white bg-dark">
+		<div class="col-md-6 px-0">
+			<h1 class="display-4 font-italic"><?php bloginfo('name'); ?></h1>
+			<p class="lead my-3"><?php bloginfo('description'); ?></p>
+			<p class="lead mb-0"><a href="<?php echo home_url('/') ?>" class="text-white font-weight-bold">Continue reading...</a></p>
+		</div>
+	</div>
+
 	<section>
-		<h2>Meu Blog</h2>
-	</section>
-	<section>	
 	<?php if ( have_posts() ) : ?>
 		<?php while (have_posts()) : the_post(); ?>
 			<div class="post">
@@ -36,5 +42,6 @@
 					
 	<?php get_sidebar(); ?>
 	</section>
+
 </main>
 <?php get_footer(); ?>
